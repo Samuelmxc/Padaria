@@ -1,3 +1,3 @@
 # site-padaria
 
-https://kaua-aquino.github.io/site-padaria
+https://samuelmxc.github.io/Padaria/
