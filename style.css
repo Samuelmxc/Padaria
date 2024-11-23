@@ -99,6 +99,64 @@ footer{
     padding-bottom: 25px;
 }
 
+#form-contato{
+    width: 60%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grupos{
+    font-weight: bold;
+    color: black;
+}
+
+.grupos input,
+.grupos textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+
+.grupos input:focus,
+.grupos textarea:focus{
+    border-color:rgb(135, 166, 235);
+    outline: none;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+#contato button{
+    width: 60%;
+    max-width: 200px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(205, 221, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: o.3 ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contato button:hover{
+    background-color: cornflowerblue;
+}
+
 @media (max-width: 875px){
     #introducao{
         flex-direction: column;
